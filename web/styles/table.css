@@ -1,0 +1,22 @@
+.personal {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+}
+
+.personal td, .personal th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.personal tr:nth-child(even){background-color: #f2f2f2;}
+
+.personal tr:hover {background-color: #ddd;}
+
+.personal th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
